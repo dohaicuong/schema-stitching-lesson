@@ -1,0 +1,21 @@
+{
+  "name": "city",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "graphql": "^15.4.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.19.0",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.5",
+    "@graphql-codegen/typescript": "1.17.11",
+    "@graphql-codegen/typescript-resolvers": "1.17.10"
+  },
+  "scripts": {
+    "dev": "ts-node-dev src/index",
+    "gen": "graphql-codegen --config codegen.yml"
+  }
+}
